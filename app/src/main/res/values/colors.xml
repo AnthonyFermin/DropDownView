@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent_gray">#99000000</color>
+
+    <color name="dDVColorPrimary">#4db6ac</color>
+    <color name="dDVColorPrimaryDark">#009688</color>
+    <color name="dDVColorAccent">#ff5252</color>
+</resources>

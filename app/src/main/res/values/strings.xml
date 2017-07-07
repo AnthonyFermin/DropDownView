@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DropDownView</string>
+    <string name="standBrooklynLemonade">Brooklyn Lemonade</string>
+    <string name="standManhattanBourjeeSliders">Manhattan Bourjee Sliders</string>
+    <string name="standQueensAndCakes"><![CDATA[Queens & Cakes]]></string>
+    <string name="standBronxTea">Bronx Tea</string>
+</resources>
