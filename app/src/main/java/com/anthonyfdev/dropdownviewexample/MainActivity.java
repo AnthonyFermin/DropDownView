@@ -69,14 +69,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupViews() {
-        dropDownView = findViewById(R.id.drop_down_view);
-        collapsedView = LayoutInflater.from(this).inflate(R.layout.view_drop_down_header, null, false);
-        expandedView = LayoutInflater.from(this).inflate(R.layout.view_drop_down_expanded, null, false);
+        dropDownView = (DropDownView) findViewById(R.id.drop_down_view);
+        collapsedView = LayoutInflater.from(this).inflate(R.layout.view_my_drop_down_header, null, false);
+        expandedView = LayoutInflater.from(this).inflate(R.layout.view_my_drop_down_expanded, null, false);
 
-        selectedStandTitleTV = collapsedView.findViewById(R.id.selected_stand_title);
-        selectedStandStatusTV = collapsedView.findViewById(R.id.selected_stand_status);
-        recyclerView = expandedView.findViewById(R.id.recyclerView);
-        headerChevronIV = collapsedView.findViewById(R.id.chevron_image);
+        selectedStandTitleTV = (TextView) collapsedView.findViewById(R.id.selected_stand_title);
+        selectedStandStatusTV = (TextView) collapsedView.findViewById(R.id.selected_stand_status);
+        recyclerView = (RecyclerView) expandedView.findViewById(R.id.recyclerView);
+        headerChevronIV = (ImageView) collapsedView.findViewById(R.id.chevron_image);
     }
 
     private final DropDownView.DropDownListener dropDownListener = new DropDownView.DropDownListener() {

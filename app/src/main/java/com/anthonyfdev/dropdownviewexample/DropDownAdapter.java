@@ -45,8 +45,8 @@ public class DropDownAdapter extends RecyclerView.Adapter<DropDownAdapter.StandV
 
         public StandViewHolder(View itemView) {
             super(itemView);
-            standTitleTV = itemView.findViewById(R.id.cell_stand_title);
-            standStatusTV = itemView.findViewById(R.id.cell_stand_status);
+            standTitleTV = (TextView) itemView.findViewById(R.id.cell_stand_title);
+            standStatusTV = (TextView) itemView.findViewById(R.id.cell_stand_status);
             itemView.setBackgroundDrawable(ContextCompat.getDrawable(itemView.getContext(), R.drawable.stand_drop_down_selector));
             itemView.setOnClickListener(standViewItemClickListener);
         }
