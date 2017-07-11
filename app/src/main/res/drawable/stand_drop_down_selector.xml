@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Apache DropDownView
+  ~
+  ~ Copyright 2017 The Apache Software Foundation
+  ~ This product includes software developed at
+  ~ The Apache Software Foundation (http://www.apache.org/).
+  -->
+
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_selected="true" android:drawable="@color/dropDownSelectedColor"/>
     <item android:state_pressed="true" android:drawable="@color/dropDownSelectedColor"/>
