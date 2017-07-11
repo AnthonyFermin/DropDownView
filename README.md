@@ -42,5 +42,3 @@ Call expand or collapse:
 ```
 
 Done!
-
-View the example app at https://github.com/AnthonyFermin/DropDownViewExample
