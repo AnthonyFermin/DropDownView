@@ -4,8 +4,8 @@
     android:color="?attr/colorControlHighlight">
     <item>
         <selector>
-            <item android:state_selected="true" android:drawable="@color/dDVColorPrimaryDark"/>
-            <item android:drawable="@color/dDVColorPrimary"/>
+            <item android:state_selected="true" android:drawable="@color/dropDownSelectedColor"/>
+            <item android:drawable="@color/dropDownContainerColor"/>
         </selector>
     </item>
 

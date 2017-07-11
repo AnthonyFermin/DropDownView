@@ -4,9 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="transparent_gray">#99000000</color>
+    <color name="transparentGray">#99000000</color>
 
-    <color name="dDVColorPrimary">#4db6ac</color>
-    <color name="dDVColorPrimaryDark">#009688</color>
-    <color name="dDVColorAccent">#ff5252</color>
+    <color name="dropDownContainerColor">#d32f2f</color>
+    <color name="dropDownSelectedColor">#b71c1c</color>
 </resources>
