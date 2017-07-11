@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Apache DropDownView
+  ~ Copyright 2017 The Apache Software Foundation
+  ~
+  ~ This product includes software developed at
+  ~ The Apache Software Foundation (http://www.apache.org/).
+  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="android.widget.RelativeLayout">
+
+    <View
+        android:id="@+id/empty_drop_down_space"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dDVTransparentGray"
+        android:clickable="true"
+        android:focusable="false"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/drop_down_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="@color/dDVColorPrimary">
+
+        <RelativeLayout
+            android:id="@+id/drop_down_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dDVColorPrimary"
+            android:gravity="center">
+
+            <!-- Will have one child for Header/Collapsed View -->
+
+        </RelativeLayout>
+
+        <!-- Will have one child after drop_down_header for Expanded View -->
+
+    </LinearLayout>
+
+</merge>

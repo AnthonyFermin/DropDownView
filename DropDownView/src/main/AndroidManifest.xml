@@ -1,0 +1,10 @@
+<!--
+  ~ Apache DropDownView
+  ~ Copyright 2017 The Apache Software Foundation
+  ~
+  ~ This product includes software developed at
+  ~ The Apache Software Foundation (http://www.apache.org/).
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anthonyfdev.dropdownview" />

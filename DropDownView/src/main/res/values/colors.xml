@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Apache DropDownView
+  ~ Copyright 2017 The Apache Software Foundation
+  ~
+  ~ This product includes software developed at
+  ~ The Apache Software Foundation (http://www.apache.org/).
+  -->
+
+<resources>
+    <!-- These will get overwritten by the app -->
+    <color name="colorPrimary">#3F51B5</color>
+
+    <color name="dDVTransparentGray">#99000000</color>
+
+    <color name="dDVColorPrimary">@color/colorPrimary</color>
+</resources>
