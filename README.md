@@ -6,6 +6,19 @@
 
 ## Gradle
 
+### Ensure your minSdkVersion is 19 or above:
+
+```
+    android {
+        compileSdkVersion 25
+        defaultConfig {
+            applicationId "com.anthonyfdev.dropdownviewexample"
+            minSdkVersion 19
+            targetSdkVersion 25
+        }
+    }
+```
+
 #### Add jitpack repository to your root build.gradle:
 ```
 	allprojects {
