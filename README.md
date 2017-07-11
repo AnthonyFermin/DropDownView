@@ -16,7 +16,7 @@
 	}
 ```
 
-#### Add dependency to root level build.gradle:
+#### Add dependency to app level build.gradle:
 ```
 	dependencies {
 	        compile 'com.github.AnthonyFermin:DropDownView:1.0.0'
