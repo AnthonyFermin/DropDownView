@@ -37,6 +37,7 @@ dependencies {
 ```
 
 ### Usage
+[JavaDocs](https://jitpack.io/com/github/AnthonyFermin/DropDownView/1.0.1/javadoc/)
 
 #### Add view to xml:
 ```
