@@ -48,6 +48,8 @@ dependencies {
     app:containerBackgroundColor="#b71c1c"
     app:overlayColor="#64000000"/>
 ```
+**Note: containerBackgroundColor defaults to colorPrimary (#3F51B5 if you don't have that defined)
+and overlayColor defaults to #99000000 (60% alpha on black)**
 
 #### Bind views:
 ```
